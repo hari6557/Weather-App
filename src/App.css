@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+body{
+  font-family: 'Questrial', sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+td.text-right{
+  font-weight: bold;
+  width: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+td.text.left{
+  width: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+body {
+  background: url("Images/Weather\ 3.jpg") center center no-repeat fixed;
+  background-size: cover;
+  
+  height: 100vh;
+  
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.jumbotron{
+ 
+  background-color: rgba(255,255,255, 0.8);
+  border-radius: 50px;
+ 
 }
+.weather_form {
+  margin-top: 75px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
